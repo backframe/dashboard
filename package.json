@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "The backframe admin dashboard user interface",
+  "homepage": "https://backframe.dev",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
