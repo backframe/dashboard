@@ -12,8 +12,8 @@
     "prepare": "husky install",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write ./src/**/*.{ts,tsx} ./scripts/**/*.{js,ts}",
-    "format:check": "prettier --check ./src/**/*.{ts,tsx} ./scripts/**/*.{js,ts}",
+    "format": "prettier --write ./src/**/*.{ts,tsx} ./**/*.{js,ts}",
+    "format:check": "prettier --check ./src/**/*.{ts,tsx} ./**/*.{js,ts}",
     "check:all": "pnpm lint && pnpm format:check"
   },
   "dependencies": {
