@@ -17,7 +17,7 @@
     "check:all": "pnpm lint && pnpm format:check"
   },
   "dependencies": {
-    "@formkit/auto-animate": "1.0.0-beta.3",
+    "@formkit/auto-animate": "1.0.0-beta.4",
     "@headlessui/react": "^1.7.3",
     "@tabler/icons": "^1.105.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
