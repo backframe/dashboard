@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[unreleased]: https://github.com/backframe/backframe-admin-ui
+[unreleased]: https://github.com/backframe/admin-ui
