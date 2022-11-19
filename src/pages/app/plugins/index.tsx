@@ -1,3 +1,3 @@
-export default function index() {
+export function Plugins() {
   return <div>index</div>;
 }

@@ -1,3 +1,3 @@
-export default function index() {
+export function Database() {
   return <div>index</div>;
 }

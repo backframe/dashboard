@@ -1,3 +1,3 @@
-export default function index() {
+export function Storage() {
   return <div>index</div>;
 }

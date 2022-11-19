@@ -1,3 +1,3 @@
-export default function index() {
-  return <div>index</div>;
+export function Overview() {
+  return <div>Overview</div>;
 }

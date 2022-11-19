@@ -1,3 +1,3 @@
-export default function index() {
+export function Authentication() {
   return <div>index</div>;
 }
