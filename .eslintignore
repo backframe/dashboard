@@ -11,3 +11,4 @@ examples
 integration-tests
 node_modules
 **/*.d.ts
+tailwind.config.cjs
