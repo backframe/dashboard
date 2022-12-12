@@ -1,14 +1,14 @@
-import { PrismaClient } from "database";
-import express from "express";
+import consola from "consola";
+import dotenv from "dotenv";
+import http from "http";
+import app from "./app.js";
 
-const prisma = new PrismaClient();
-const app = express();
+dotenv.config();
+consola.wrapConsole();
 
-app.get("/", (req, res) => {
-  const user = prisma.user.findMany();
-  res.send({ user });
-});
+const server = http.createServer(app);
+const port = process.env.PORT || 8081;
 
-app.listen(9000, () => {
-  console.log("Server started on port 3000");
+server.listen(port, () => {
+  consola.info(`Server started on port: ${port}`);
 });
