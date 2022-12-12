@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  @font-face {
+    font-family: "Inter";
+    src: url(/fonts/Inter-variable.woff2) format("woff2");
+    font-display: "optional";
+    font-style: normal;
+    font-weight: 300 400 500 600 700;
+  }
+}
