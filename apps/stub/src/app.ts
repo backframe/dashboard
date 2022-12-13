@@ -31,12 +31,15 @@ app.use("/_admin", async (_req, res) => {
   } = _req;
   const isInitialReq = ogUrl === "/_admin" || ogUrl === "/_admin/";
 
+  // TODO: use-cookies, if no cookie, go to login, if cookie but not valid, go login
+  // if(isInitialReq && !res.hasCookie("")) {}
+
   if (isInitialReq && !(await hasAdmin())) {
     return res.redirect(`${protocol}://${host}${ogUrl}?bf_installer#`);
   }
 
   if (ogUrl.includes("bf_installer") && (await hasAdmin())) {
-    return res.redirect(`${protocol}://${host}/_admin/login`);
+    return res.redirect(`${protocol}://${host}/_admin/`);
   }
 
   res.sendFile(path.join(__dirname, "../../ui/dist/index.html"));
