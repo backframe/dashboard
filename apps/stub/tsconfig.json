@@ -7,9 +7,9 @@
     "lib": ["ESNext", "DOM"],
     "outDir": "dist",
     "rootDir": "src",
-    "strict": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "allowJs": true
   },
   "exclude": ["node_modules", "dist"],
   "ts-node": {
