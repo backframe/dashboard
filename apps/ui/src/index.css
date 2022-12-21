@@ -10,4 +10,27 @@
     font-style: normal;
     font-weight: 300 400 500 600 700;
   }
+
+  .loading {
+    @apply transition-all;
+    animation: 0.5s load ease infinite;
+  }
+
+  @keyframes load {
+    0% {
+      @apply rotate-0;
+    }
+    25% {
+      @apply rotate-12;
+    }
+    50% {
+      @apply rotate-45;
+    }
+    75% {
+      @apply rotate-90;
+    }
+    to {
+      @apply rotate-180;
+    }
+  }
 }
