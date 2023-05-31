@@ -16,7 +16,7 @@
     "@heroicons/react": "^2.0.13",
     "@iconscout/react-unicons": "^2.0.2",
     "@mantine/core": "^5.9.4",
-    "@mantine/form": "^5.9.4",
+    "@mantine/form": "^6.0.13",
     "@mantine/hooks": "^5.9.4",
     "@tabler/icons": "^2.16.0",
     "clsx": "^1.2.1",
